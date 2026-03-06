@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+@keyframes popup {
+  0% { transform: scale(0.7); opacity: 0; }
+  80% { transform: scale(1.05); }
+  100% { transform: scale(1); opacity: 1; }
+}
+.animate-popup {
+  animation: popup 0.35s ease-out forwards;
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.3); opacity: 0; }
+  60% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); }
+}
+.animate-bounce-in {
+  animation: bounceIn 0.4s ease-out;
+}
+
+@keyframes check {
+  0% { stroke-dasharray: 100; stroke-dashoffset: 100; }
+  100% { stroke-dashoffset: 0; }
+}
+.animate-check {
+  stroke-dasharray: 100;
+  animation: check 0.5s ease forwards;
+}
+
+/* Light Confetti Effect */
+.confetti {
+  background-image:
+    radial-gradient(circle, rgba(255,0,0,0.4) 3px, transparent 3px),
+    radial-gradient(circle, rgba(0,255,0,0.4) 3px, transparent 3px),
+    radial-gradient(circle, rgba(0,0,255,0.4) 3px, transparent 3px),
+    radial-gradient(circle, rgba(255,255,0,0.4) 3px, transparent 3px);
+  background-size: 40px 40px;
+}

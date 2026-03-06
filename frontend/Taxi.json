@@ -1,0 +1,70 @@
+[
+  {
+    "taxiId": "TX1001",
+    "driverName": "Rahul Mehta",
+    "phone": "9876543210",
+    "carModel": "Toyota Innova",
+    "carNumber": "HR26 DK 5621",
+    "seats": 7,
+    "rating": 4.8,
+    "pricePerKm": 14,
+    "available": true,
+    "carImage": "innova.jpg",
+    "location": {
+      "city": "Delhi",
+      "lat": 28.7041,
+      "lng": 77.1025
+    }
+  },
+  {
+    "taxiId": "TX1002",
+    "driverName": "Amit Sharma",
+    "phone": "9898989898",
+    "carModel": "Maruti Swift Dzire",
+    "carNumber": "DL03 CU 4452",
+    "seats": 4,
+    "rating": 4.6,
+    "pricePerKm": 12,
+    "available": true,
+    "carImage": "dzire.jpg",
+    "location": {
+      "city": "Noida",
+      "lat": 28.5355,
+      "lng": 77.3910
+    }
+  },
+  {
+    "taxiId": "TX1003",
+    "driverName": "Suresh Yadav",
+    "phone": "9933221100",
+    "carModel": "Hyundai Creta",
+    "carNumber": "UP16 AN 9834",
+    "seats": 5,
+    "rating": 4.9,
+    "pricePerKm": 15,
+    "available": false,
+    "carImage": "creta.jpg",
+    "location": {
+      "city": "Gurgaon",
+      "lat": 28.4595,
+      "lng": 77.0266
+    }
+  },
+  {
+    "taxiId": "TX1004",
+    "driverName": "Imran Khan",
+    "phone": "9090909090",
+    "carModel": "Mahindra XUV500",
+    "carNumber": "HR10 AB 7654",
+    "seats": 7,
+    "rating": 4.7,
+    "pricePerKm": 16,
+    "available": true,
+    "carImage": "xuv500.jpg",
+    "location": {
+      "city": "Faridabad",
+      "lat": 28.4089,
+      "lng": 77.3178
+    }
+  }
+]
